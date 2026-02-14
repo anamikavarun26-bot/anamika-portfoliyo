@@ -1,147 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>nikita— Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anamika Varun | Portfolio</title>
+
 </head>
+
 <body>
 
-  <!-- NAV -->
-  <header class="top-nav">
-    <div class="nav-inner">
-      <div class="brand">Portfolio</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="resume.pdf" target="_blank">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-    </div>
-  </header>
+<header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <!-- HERO -->
-  <main id="home">
-    <section class="hero">
-      <div class="hero-left">
-        <h3 class="hello">Hello, I am</h3>
-        <h1 class="name-static">Nikita Solanki</h1>
-        <h2 class="slide-container">
-          <span id="slide-text"></span><span class="cursor">|</span>
-        </h2>
-        <p class="hero-sub">
-          I build modern UI, responsive layouts and smooth web experiences using HTML, CSS and JavaScript.
-        </p>
-        <div class="cta">
-          <a href="mailto:solankinikita569@gmail.com" class="btn primary">Hire Me</a>
-          <a href="#projects" class="btn outline">Projects</a>
-          <a href="resume.pdf" class="btn outline" download>Download CV</a>
-        </div>
-        <div class="socials">
-          <a href="https://www.linkedin.com/in/nikita-solanki-1781a9365" target="_blank">
-            <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn">
-          </a>
-          <a href="mailto:solankinikita569@gmail.com">
-            <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
-          </a>
-          <a href="https://github.com/Nikku219/Work" target="_blank">
-            <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="Github">
-          </a>
-        </div>
-      </div>
-
-      <div class="hero-center">
-        <div class="neon-ring" aria-hidden="true">
-          <img src="profile.jpg" alt="Nikita Solanki" class="profile" />
-        </div>
-      </div>
-    </section>
-
-    <!-- CHECK RESUME -->
-    <section id="resume-check" class="resume-section">
-      <h2 class="section-title">
-        <a href="resume.pdf" target="_blank" style="color: #4fe3ff; text-decoration: none;">
-          Check Resume
-        </a>
-      </h2>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="projects">
-      <h2 class="section-title">Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>MediCare App</h3>
-          <p>Medicine management mini-project with clean UI.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="education">
-      <h2 class="section-title">Education</h2>
-      <div class="education-grid">
-        <div class="education-card">
-          <h3>MCA (Master of Computer Applications)</h3>
-          <p>Chameli Devi Group of Institute</p>
-          <span>2024–2026</span>
-        </div>
-        <div class="education-card">
-          <h3>B.Sc. (Computer Science)</h3>
-          <p>St.Paul Institution of Professional Studies</p>
-          <p>CGPA: 7.0</p>
-          <span>2020–2024</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="about">
-      <h2 class="section-title">Experience</h2>
-      <div class="about-box">
-        <h3>Full-stack Web Development internship </h3>
-        <span>Jyesta Corporate Entity | June 2025 – Aug 2025</span>
-        <p>
-         During my full-stack internship at Jyesta Corporate Entity, I worked on responsive UI
-             development, API integration, backend logic, and database management.I contributed to
-             real project modules, improved problem-solving skills, and learned to write clean,
-             maintainable code following industry practices.
-        </p>
-        <p><strong>Skills:</strong> HTML, CSS, PYTHON, C, C++</p>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="about">
-  <h2 class="section-title">Contact Me</h2>
-  <p style="text-align:center;color:#b9bdc2;margin-bottom:20px;">
-    Please fill out the form below to contact me
+<section id="home" class="hero">
+  <h1>Anamika Varun</h1>
+  <p>
+    Aspiring Software Developer with strong foundation in Python, JavaScript, 
+    HTML, CSS, DBMS and SQL. Passionate about building responsive 
+    and user-friendly web applications.
   </p>
+  <a href="mailto:anamikavarun26@gmail.com" class="btn">Hire Me</a>
+</section>
 
-  <div class="about-box contact-box">
-    <form action="mailto:solankinikita569@gmail.com" method="post" enctype="text/plain">
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a motivated and detail-oriented developer with knowledge in 
+    Python, JavaScript and database technologies. I enjoy problem-solving 
+    and creating interactive web applications.
+  </p>
+</section>
 
-      <input type="text" name="FullName" placeholder="Full Name" required>
-
-      <input type="email" name="Email" placeholder="Email Address" required>
-
-      <textarea name="Message" placeholder="Message" rows="5" required></textarea>
-
-      <button type="submit" class="btn primary">Send</button>
-
-    </form>
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">Python</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">DBMS</div>
+    <div class="skill-card">SQL</div>
   </div>
 </section>
 
-    <footer class="footer">
-      ©️ 2025 Nikita Solanki
-    </footer>
-  </main>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Student Management System</h3>
+      <p>
+        Developed a student management system using Python and SQL 
+        to manage student records efficiently.
+      </p>
+    </div>
+    <div class="project-card">
+      <h3>Responsive Portfolio Website</h3>
+      <p>
+        Designed and developed a personal portfolio website using 
+        HTML, CSS and JavaScript.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: 
+    <a href="mailto:anamikavarun26@gmail.com" style="color:#4fe3ff;">
+      anamikavarun26@gmail.com
+    </a>
+  </p>
+  <p>LinkedIn: 
+    <a href="https://www.linkedin.com/in/anamika-varun-627411368" target="_blank" style="color:#4fe3ff;">
+      linkedin.com/in/anamika-varun
+    </a>
+  </p>
+</section>
+
+<footer>
+  © 2026 Anamika Varun | All Rights Reserved
+</footer>
+
 </body>
 </html>
